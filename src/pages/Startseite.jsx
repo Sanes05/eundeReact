@@ -19,6 +19,7 @@ export default function Startseite() {
 						<Textcomponent headline={headline} text={textArray} />
 					</div>
 				</section>
+				<section className="home-section-card-section"></section>
 			</div>
 		</div>
 	);
