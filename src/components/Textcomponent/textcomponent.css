@@ -7,9 +7,19 @@
 }
 
 .textcomponent-text-div {
+	margin-top: 16px;
+	display: flex;
 	width: 880px;
+	gap: 24px;
+	flex-direction: column;
 }
 
 .textcomponent-p {
 	text-align: center;
+	font-size: 24px;
+}
+
+.textcomponent-headline {
+	text-align: center;
+	font-size: 50px;
 }
