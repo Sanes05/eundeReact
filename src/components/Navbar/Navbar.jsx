@@ -1,4 +1,5 @@
 import {Link} from "react-router-dom";
+import "./navbar.css";
 
 const Navbar = () => {
 	const navBaritems = [
@@ -20,7 +21,7 @@ const Navbar = () => {
 		<>
 			<nav>
 				{navBaritems.map((navBarItem) => (
-					<Link to={navBarItem.href} key={navBarItem.label}>
+					<Link className="navbar-link-btn" to={navBarItem.href} key={navBarItem.label}>
 						{navBarItem.label}
 					</Link>
 				))}

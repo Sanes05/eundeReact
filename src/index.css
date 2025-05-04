@@ -2,3 +2,16 @@
 	margin: 0;
 	padding: 0;
 }
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+.max-width-rapper {
+	max-width: 1200px;
+}
+
+.max-width-rapper-center {
+	display: flex;
+	justify-content: center;
+}

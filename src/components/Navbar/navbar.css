@@ -1,0 +1,26 @@
+nav {
+	margin-top: 16px;
+	display: flex;
+	justify-content: center;
+}
+
+.navbar-link-btn {
+	text-decoration: none;
+	color: white;
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.navbar-link-btn:first-of-type {
+	background-color: #00437c;
+}
+
+.navbar-link-btn:nth-of-type(2) {
+	background-color: #a6d7d5;
+}
+
+.navbar-link-btn:last-of-type {
+	background-color: #d60550;
+}
