@@ -2,13 +2,15 @@ nav {
 	margin-top: 16px;
 	display: flex;
 	justify-content: center;
+	width: 1200px;
 }
 
 .navbar-link-btn {
 	text-decoration: none;
 	color: white;
-	padding-left: 24px;
-	padding-right: 24px;
+	width: 33.4%;
+	text-align: center;
+	display: block;
 	padding-top: 4px;
 	padding-bottom: 4px;
 }

@@ -1,0 +1,15 @@
+.textcomponent-main-div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.textcomponent-text-div {
+	width: 880px;
+}
+
+.textcomponent-p {
+	text-align: center;
+}
