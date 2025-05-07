@@ -1,9 +1,10 @@
 import Image from "../assets/img1.jpg";
 import Textcomponent from "../components/Textcomponent/Textcomponent";
+import Cardcomponent from "../components/Cardcomponent/Cardcomponent";
 import "./startseite.css";
 
 export default function Startseite() {
-	const headline = "Herzlich Willkommen bei der Reinigungsfirma E&E Gebäudereinigung";
+	const textComponentheadline = "Herzlich Willkommen bei der Reinigungsfirma E&E Gebäudereinigung";
 	const textArray = [
 		"Wir sind die Fachleute für Gebäudereinigung mit denn Aufgabengebieten Gebäudereinigung, Büroreinigung, Praxisreinigung, Baustellenreinigung und Grundreinigungen",
 		"Wir nehmen uns Zeit für Sie und beraten Sie umfassend und kompetent ",
@@ -16,10 +17,10 @@ export default function Startseite() {
 				<section className="home-section-one">
 					<img src={Image} alt="Image" className="home-image-one" />
 					<div className="textcoomponent-div">
-						<Textcomponent headline={headline} text={textArray} />
+						<Textcomponent headline={textComponentheadline} text={textArray} />
 					</div>
 				</section>
-				<section className="home-section-card-section"></section>
+				<section className="home-section-card-section">{/* <Cardcomponent /> */}</section>
 			</div>
 		</div>
 	);
