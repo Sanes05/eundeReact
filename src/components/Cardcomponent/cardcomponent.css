@@ -1,0 +1,27 @@
+.card-component-main-div {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 33.4%;
+	height: 400px;
+	background-color: #f4f4f4;
+}
+
+.card-component-img-container {
+	margin-top: 32px;
+}
+
+.card-component-img {
+	width: 100px;
+}
+
+.card-component-headline {
+	margin-top: 16px;
+	margin-bottom: 16px;
+	font-size: 32px;
+}
+
+.card-component-text {
+	text-align: center;
+	font-size: 20px;
+}

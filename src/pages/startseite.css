@@ -8,4 +8,13 @@
 
 .textcoomponent-div {
 	margin-top: 80px;
+	padding-bottom: 40px;
+}
+
+.home-section-card-section {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 1200px;
 }

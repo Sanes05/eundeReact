@@ -13,7 +13,7 @@ const Navbar = () => {
 		},
 		{
 			href: "impressum",
-			label: "Impressum"
+			label: "Impressum & Kontakt"
 		}
 	];
 

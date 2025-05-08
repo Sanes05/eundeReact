@@ -1,6 +1,9 @@
 import Image from "../assets/img1.jpg";
 import Textcomponent from "../components/Textcomponent/Textcomponent";
 import Cardcomponent from "../components/Cardcomponent/Cardcomponent";
+import iconOne from "../assets/icons/icon1.svg";
+import iconTwo from "../assets/icons/icon2.svg";
+import iconThree from "../assets/icons/icon3.svg";
 import "./startseite.css";
 
 export default function Startseite() {
@@ -11,6 +14,14 @@ export default function Startseite() {
 		"Unsere oberste Priorität ist eine gründliche und professionelle Reinigung für maximale Kundenzufriedenheit."
 	];
 
+	const cardComponentHeadline = ["Startseite", "Leistungen", "Kontakt"];
+	const cardComponentText = [
+		"test",
+		"Gebäudereinigung, Büroreinigung, Praxisreinigung, Baustellenreinigung und Grundreinigungen sind unser Kerngeschäft. ",
+		"Überzeugt? Dann vereinbaren Sie mit uns einen kostenlosen Beratungstermin"
+	];
+	const cardComponentImageSrc = [iconOne, iconTwo, iconThree];
+
 	return (
 		<div className="max-width-rapper-center">
 			<div className="max-width-rapper">
@@ -20,7 +31,9 @@ export default function Startseite() {
 						<Textcomponent headline={textComponentheadline} text={textArray} />
 					</div>
 				</section>
-				<section className="home-section-card-section">{/* <Cardcomponent /> */}</section>
+				<section className="home-section-card-section">
+					<Cardcomponent headline={cardComponentHeadline} text={cardComponentText} image={cardComponentImageSrc} />
+				</section>
 			</div>
 		</div>
 	);

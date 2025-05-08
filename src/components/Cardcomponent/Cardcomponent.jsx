@@ -7,23 +7,17 @@ export default function Cardcomponent(props) {
 	const imageSrcArray = props.image;
 
 	return (
-		<div className="cardcomponent-main-div">
-			<div className="card-icon-container">
-				{imageSrcArray.map((imgSrc, index) => {
-					<img src={imgSrc} alt={headlineArray[index]} key={index} />;
-				})}
-			</div>
-			<div className="headline-container">
-				{headlineArray.map((headline) => {
-					<h1 className="headline">{headline}</h1>;
-				})}
-			</div>
-			<div className="card-text-container">
-				{textArray.map((text) => {
-					<p className="card-text">{text}</p>;
-				})}
-			</div>
-		</div>
+		<>
+			{headlineArray.map((headline, index) => (
+				<div className="card-component-main-div" key={index}>
+					<div className="card-component-img-container">
+						<img className="card-component-img" src={imageSrcArray[index]} alt={index} />
+					</div>
+					<h1 className="card-component-headline">{headline}</h1>
+					<p className="card-component-text">{textArray[index]}</p>
+				</div>
+			))}
+		</>
 	);
 }
 
