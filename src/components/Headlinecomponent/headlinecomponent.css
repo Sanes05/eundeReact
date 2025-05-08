@@ -1,0 +1,10 @@
+.headline-component-main-div {
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.headline-component-headline {
+	color: white;
+}

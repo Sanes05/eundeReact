@@ -1,6 +1,7 @@
 import Image from "../assets/img1.jpg";
 import Textcomponent from "../components/Textcomponent/Textcomponent";
 import Cardcomponent from "../components/Cardcomponent/Cardcomponent";
+import Contactsection from "../components/Contactsection/Contactsection";
 import iconOne from "../assets/icons/icon1.svg";
 import iconTwo from "../assets/icons/icon2.svg";
 import iconThree from "../assets/icons/icon3.svg";
@@ -33,6 +34,9 @@ export default function Startseite() {
 				</section>
 				<section className="home-section-card-section">
 					<Cardcomponent headline={cardComponentHeadline} text={cardComponentText} image={cardComponentImageSrc} />
+				</section>
+				<section className="home-section-contact-section">
+					<Contactsection />
 				</section>
 			</div>
 		</div>

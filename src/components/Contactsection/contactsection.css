@@ -1,0 +1,18 @@
+.contact-section-main-div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.contact-headline {
+	text-align: center;
+	font-size: 32px;
+	width: 880px;
+}
+
+.contact-headline-div {
+	margin-top: 48px;
+	margin-bottom: 32px;
+	display: flex;
+	justify-content: center;
+}
