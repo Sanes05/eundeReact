@@ -1,29 +1,13 @@
 import Contactform from "../Contactform/Contactfrom";
 import Headline from "../Headlinecomponent/Headlinecomponent";
 import "./contactsection.css";
+import {contactItems} from "../../Items.TS";
 
 const Contactsection = () => {
 	const headline = "Kontakt";
 	const backgroundColor = {backgroundColor: "#d60550"};
 	const contactHeadline = "Schreiben Sie uns eine E-Mail, rufen Sie uns an oder nutzen Sie das Kontaktformular wir sind Montag bis Freitag in der Zeit von 8:00 bis 14:00 Uhr für Sie da!";
 	const companyInfos = ["E&E-Gebäudereiniguing", "Sandstraße 64", "13593 Berlin"];
-	const contactDetails = [
-		{
-			href: "tel:030111222333",
-			label: "Telefon",
-			hrefText: "030111222333"
-		},
-		{
-			href: "mailto:info@ee-gr.de",
-			label: "E-Mail",
-			hrefText: "info@ee-gr.de"
-		},
-		{
-			href: "https://ee-gr.de",
-			label: "Webseite",
-			hrefText: "ee-gr.de"
-		}
-	];
 	return (
 		<>
 			<Headline headline={headline} style={backgroundColor} />
@@ -39,10 +23,12 @@ const Contactsection = () => {
 						))}
 					</div>
 					<div className="contact-details-div">
-						{contactDetails.map((contactDetail) => (
+						{contactItems.map((contactDetail) => (
 							<div key={contactDetail.label} className="contact-details-text-div">
 								<p>{contactDetail.label}:</p>
-								<a href={contactDetail.href}>{contactDetail.hrefText}</a>
+								<a className="contayct-details-href" href={contactDetail.href}>
+									{contactDetail.hrefText}
+								</a>
 							</div>
 						))}
 					</div>
