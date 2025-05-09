@@ -2,6 +2,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	background-color: white;
 }
 
 .contact-headline {
@@ -11,8 +12,28 @@
 }
 
 .contact-headline-div {
-	margin-top: 48px;
-	margin-bottom: 32px;
+	padding-top: 48px;
+	padding-bottom: 32px;
 	display: flex;
 	justify-content: center;
+	background-color: white;
+}
+
+.contact-infos-div {
+	margin-right: 160px;
+}
+
+.contact-details-text-div {
+	display: flex;
+	flex-direction: row;
+	gap: 8px;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
 }

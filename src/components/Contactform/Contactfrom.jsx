@@ -44,7 +44,9 @@ const Contactform = () => {
 				<div className="contact-form-textarea-div">
 					<textarea placeholder="Ihre Nachricht" value={content} onChange={(event) => setContent(event.target.value)}></textarea>
 				</div>
-				<button type="submit">Absenden</button>
+				<div className="contact-form-button-div">
+					<button type="submit">Absenden</button>
+				</div>
 				{status && <p>{status}</p>}
 			</form>
 		</>

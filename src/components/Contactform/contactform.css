@@ -1,0 +1,49 @@
+form {
+	padding-left: 160px;
+}
+
+.contact-form-input-row {
+	display: flex;
+	gap: 32px;
+}
+
+input {
+	padding: 8px;
+}
+
+input::placeholder {
+	color: black;
+}
+
+.contact-form-textarea-div {
+	margin-top: 32px;
+}
+
+textarea {
+	width: 378px;
+	height: 250px;
+	resize: none;
+	padding: 16px;
+}
+
+textarea::placeholder {
+	color: black;
+}
+
+button {
+	margin-top: 30px;
+	border: 1px solid white;
+	background-color: inherit;
+	padding: 8px;
+}
+
+button:hover {
+	cursor: pointer;
+	transition-duration: 0.3s;
+	border: 1px solid Black;
+}
+
+.contact-form-button-div {
+	display: flex;
+	justify-content: end;
+}
