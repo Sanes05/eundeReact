@@ -18,7 +18,7 @@ export default function Startseite() {
 	const cardComponentHeadline = ["Startseite", "Leistungen", "Kontakt"];
 	const cardComponentText = [
 		"test",
-		"Gebäudereinigung, Büroreinigung, Praxisreinigung, Baustellenreinigung und Grundreinigungen sind unser Kerngeschäft. ",
+		"Gebäudereinigung, Treppenreinigung, Büroreinigung, Praxisreinigung, Fensterreinigung, Baustellenreinigung und Grundreinigungen sind unser Kerngeschäft. ",
 		"Überzeugt? Dann vereinbaren Sie mit uns einen kostenlosen Beratungstermin"
 	];
 	const cardComponentImageSrc = [iconOne, iconTwo, iconThree];

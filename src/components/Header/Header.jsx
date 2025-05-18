@@ -1,14 +1,19 @@
 import Navbar from "../Navbar/Navbar";
-import Logo from "../../assets/logo.jpg";
+
+import Headlinecomponent from "../Headlinecomponent/Headlinecomponent";
+
 import "./header.css";
 
 export default function Header() {
+	const headline = "E|E Gebäudereinigung ";
+	const backgroundColor = {backgroundColor: "#0273cf"};
+
 	return (
 		<div className="max-width-rapper-center">
 			<div className="max-width-rapper">
 				<header>
 					<div className="logo">
-						<img src={Logo} alt="Logo" className="logo" />
+						<Headlinecomponent headline={headline} style={backgroundColor} />
 					</div>
 					<Navbar />
 				</header>

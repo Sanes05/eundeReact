@@ -17,3 +17,18 @@ export const contactItems = [
 ];
 
 export const companyInfos = ["E&E-Gebäudereiniguing", "Sandstraße 64", "13593 Berlin"];
+
+export const ImpressumItems = [
+	{
+		label: "Handwerkskammer:",
+		text: "Handwerkskammer Berlin"
+	},
+	{
+		label: "Berufshaftpflichtversicherung:",
+		text: "andsafe Aktiengesellschaft Provinzial-Allee 148159 Münster"
+	},
+	{
+		label: "Steuernummer:",
+		text: "68/409/615/326"
+	}
+];
